@@ -1,4 +1,4 @@
-* {
+*:not(dd) {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -79,17 +79,22 @@ h2 {
     display: flex;
     flex-direction: column;
 }
-
-.text,
-.contact {
+.parrafo{
     margin-top: 25px;
+
+}
+
+.contacto {
+    margin-top: 25px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .email {
     padding-bottom: 20px;
 }
 
-h4 {
+h4, h3 {
     font-size: 20px;
     font-style: italic;
     margin-bottom: 5px;
@@ -98,4 +103,65 @@ h4 {
 .detail {
     margin-left: 15px;
     margin-bottom: 25px;
+}
+
+.text, .rules{
+    width: 60%;
+}
+
+.sports{
+    margin: 15px;
+}
+
+.regulations{
+    margin: 15px;
+}
+
+.dimensions{
+    margin: 15px;
+}
+
+.competition{
+    margin: 15px;
+}
+
+.fields{
+    margin: 15px;
+}
+
+.letras{
+    list-style-type: lower-latin;
+}
+
+.allplay{
+    margin: 15px;
+}
+
+.circulo{
+    list-style-type: circle;
+    margin-bottom: 30px;
+}
+.p{
+    margin: 15px;
+    text-decoration: underline;
+    font-size: 18px;
+    font-style: italic;
+}
+
+table, tr, th, td{
+    border: solid 1px black;
+    padding: 12px;
+    background-color: rgba(235, 226, 62, 0.575);
+}
+
+.extra{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
